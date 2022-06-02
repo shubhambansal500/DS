@@ -1,0 +1,14 @@
+public class PrintStringInReverseOrder {
+    public static void main(String args[]){
+        String str = "Hello Print in Reverse Order";
+        reverseOrder(str);
+    }
+    private static String reverseOrder(String str) {
+        if (str.length()==0) {
+            return str;
+        }
+        System.out.print(str.charAt(str.length()-1));
+        return reverseOrder(str.substring(0,str.length() -1));
+    }
+}
+// the time complexity of above code is O(n)
