@@ -1,1 +1,15 @@
 
+Time Complexities 
+
+We can have three cases to analyze an algorithm: 
+1) The Worst Case 
+2) Average Case 
+3) Best Case
+
+Worst case - when we want to find a number n and it is not present hence we look in the data structure for n iterations hence complexity is O(n)
+Avergae case - again time compexity is O(n)
+Best case - when the complexity is O(1)
+
+Example Bubble Sort
+Worst and Average Cases are O(n^2)
+Best case O(n)
