@@ -1,0 +1,22 @@
+
+public class StringPalindrome {
+    static String reverse = "";
+    public static void main(String args[]){
+        String str = "AMA";
+                reverseOrder(str);
+        if(str.equals(reverse)){
+            System.out.println("Palindrome");
+        }else{
+            System.out.println("Not Palindrome");
+        }
+    }
+    private static String reverseOrder(String str) {
+        if (str.length()==0) {
+            return str;
+        }
+        reverse+=str.charAt(str.length()-1);
+        reverseOrder(str.substring(0,str.length() -1));
+        return reverse;
+    }
+}
+// the time complexity of above code is O(n)
