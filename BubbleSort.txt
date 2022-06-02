@@ -1,1 +1,17 @@
 
+list bubbleSort(array : arr)
+  n = arr.length
+  for i=0 to n-1
+    swapped = false;
+    for j=0 to n-1
+      if(arr[j]> arr[j+1])
+        swap(arr[j], arr[j+1])
+        swapped = true;
+      end if
+    end for
+    if(swapped == false)
+    break;
+    end if
+ end for   
+
+end method return list
