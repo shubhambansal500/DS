@@ -1,0 +1,1 @@
+Best case scenario is O(n) when array is already sorted, hence it iterates once, that is n iterations.
