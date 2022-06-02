@@ -1,1 +1,1 @@
-Best case scenario is O(n) when array is already sorted, hence it iterates once, that is n iterations.
+Best case scenario is O(nlogn) for Quick sort, It picks an element as a pivot and partitions the given array. If pivot element divides the array into two equal half in such a scenario, quick sort takes the least time sort
