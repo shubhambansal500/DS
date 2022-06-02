@@ -1,2 +1,5 @@
-Average and Worst case complexity for Bubble Sort is O(n^2)
-Best case complexity for Bubble Sort is O(n), when the array is already sorted
+Accessing nth element - Array O(n)
+Search - Array O(n)
+Insertion - Array O(n)
+Deletion - Array O(n)
+Space complexity - O(n)
