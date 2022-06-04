@@ -1,0 +1,20 @@
+    static boolean hasCycle(Solution.SinglyLinkedListNode head) {
+        int flag=0;
+        SinglyLinkedListNode slow = head.next;
+        SinglyLinkedListNode fast = head.next.next;
+        while(slow!=null && fast!=null && fast.next!=null){
+            slow = slow.next;
+            fast = fast.next;
+            if(slow==fast){
+                flag =1;
+                break;
+            }
+        }
+        if(flag==1){
+            return true;
+        }
+        return false;
+
+    }
+    
+    // time complexity is O(n) as only loop is required
